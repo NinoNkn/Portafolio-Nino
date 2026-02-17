@@ -1,0 +1,49 @@
+<html>
+    <link rel="stylesheet" href="Assets/css/horario.css">
+<body>
+<section class="horario-container">
+
+  <h2>Horario Semanal</h2>
+
+  <button id="btnAgregar">+ Agregar Evento</button>
+
+  <div id="horarioGrid" class="horario-grid">
+    <!-- toca llenarlo XD -->
+  </div>
+
+</section>
+
+<div id="modal" class="modal oculto">
+  <div class="modal-content">
+    <h3>Nuevo Evento</h3>
+
+    <input type="text" id="titulo" placeholder="Nombre">
+    
+    <select id="dia">
+      <option value="Lunes">Lunes</option>
+      <option value="Martes">Martes</option>
+      <option value="Miércoles">Miércoles</option>
+      <option value="Jueves">Jueves</option>
+      <option value="Viernes">Viernes</option>
+    </select>
+
+    <input type="time" id="hora">
+    
+    <select id="categoria">
+      <option value="academica">Académica</option>
+      <option value="eventos">Eventos</option>
+      <option value="tutoria">Tutoría</option>
+      <option value="trabajo">Trabajo</option>
+      <option value="personal">Personal</option>
+    </select>
+    
+    <label>Color del evento:</label>
+    <input type="color" id="colorEvento" value="#2563eb">
+
+
+    <button id="guardarEvento">Guardar</button>
+  </div>
+  <script src="Assets/js/horario.js" defer></script>
+</div>
+</body>
+</html>

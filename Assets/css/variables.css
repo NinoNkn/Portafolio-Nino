@@ -1,0 +1,19 @@
+:root {
+  --color-primario: #1e3a8a;
+  --color-secundario: #2563eb;
+  --color-fondo: #f5f7fa;
+  --color-texto: #1f2937;
+
+  --materia-iso: #3b82f6;
+  --materia-bd: #10b981;
+  --materia-redes: #f59e0b;
+
+  --cat-academica: #2563eb;
+  --cat-investigacion: #7c3aed;
+  --cat-tutoria: #10b981;
+  --cat-admin: #ef4444;
+  --cat-personal: #f59e0b;
+
+  --radius: 10px;
+  --shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

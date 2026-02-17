@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+
+  .horario-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bloque {
+    margin-bottom: 1rem;
+  }
+
+}

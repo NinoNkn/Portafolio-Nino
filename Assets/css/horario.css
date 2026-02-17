@@ -1,0 +1,35 @@
+body {
+  font-family: 'Arial', sans-serif;
+  max-width: 1200px;  
+  margin: 0 auto;     
+  padding: 0 px;    
+  background: linear-gradient(to bottom, #6fd1ff, #b8dcff);
+  color: #333;
+}
+.horario-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.columna-dia {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: var(--radius);
+  min-height: 300px;
+}
+
+.evento {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.evento:hover {
+  transform: scale(1.05);
+}
